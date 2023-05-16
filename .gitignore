@@ -1,0 +1,9 @@
+*~
+\#*
+*#
+.#*
+test*
+runs/
+__pycache__
+nohup.out
+*.csv
