@@ -26,8 +26,8 @@
 # testing data
 # n.b. for duplicate keys - the last def *should* be used, worked with py 3.8.10)
 # this makes it easy to just comment out individual lines below leaving master data above
-    ,"losses"      : [ "mae" ]
-    ,"hidden_size" : [ 16 ]
-    ,"epochs"      : 10
-    ,"activations" : [ "tanh" ]
+#    ,"losses"      : [ "mae" ]
+#    ,"hidden_size" : [ 16 ]
+#    ,"epochs"      : 10
+#    ,"activations" : [ "tanh" ]
 }
