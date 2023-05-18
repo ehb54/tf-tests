@@ -1,15 +1,17 @@
 #!/usr/bin/perl
 
 @activations = (
-        "relu"
-        ,"sigmoid"
-        ,"softmax"
-        ,"softplus"
-        ,"softsign"
-        ,"tanh"
-        ,"selu"
-        ,"elu"
-        ,"exponential"
+    "relu"
+    ,"leaky_relu"
+    ,"para_relu"
+    ,"sigmoid"
+    ,"softmax"
+    ,"softplus"
+    ,"softsign"
+    ,"tanh"
+    ,"selu"
+    ,"elu"
+    ,"exponential"
     )
 
 
