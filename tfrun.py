@@ -156,7 +156,7 @@ def compile_model(model, loss):
 for count in config['hidden_size'] :
     for loss in config['losses'] :
         for activation in config['activations'] :
-            name = f'dnn_model_hidden_units_{loss}_{activation}_{count}'
+            name = f'dnn_model_{loss}_{activation}_hidden_units{count}'
             print( name )
             dnn_models[name]=build_model(normalizer,activation,count)
             compile_model(dnn_models[name],loss)
@@ -177,6 +177,6 @@ for count in config['hidden_size'] :
 for count in config['hidden_size'] :
     for loss in config['losses'] :
         for activation in config['activations'] :
-            name = f'dnn_model_hidden_units_{loss}_{activation}_{count}'
+            name = f'dnn_model_{loss}_{activation}_hidden_units{count}'
             print( f'{name} : max train abs error {max(abs(train_errors[name]))}, max test abs error {max(abs(test_errors[name]))}' )
 
